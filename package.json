@@ -1,0 +1,29 @@
+{
+  "name": "@wikimedia/hydrate-response",
+  "version": "1.0.0",
+  "description": "Hydrate a JSON object (typically, an API response) with additional content",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wikimedia/hydrate-response.git"
+  },
+  "keywords": [
+    "wikimedia",
+    "restbase"
+  ],
+  "author": "Wikimedia Services Team <services@wikimedia.org>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/wikimedia/hydrate-response/issues"
+  },
+  "homepage": "https://github.com/wikimedia/hydrate-response#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
